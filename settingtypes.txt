@@ -23,5 +23,20 @@ dwh.authfail (Report connection attempt with invalid password) bool false
 dwh.serverstart (Report when server is re_starting) bool false
 
 # Send a message when the server is shutting down
-# this may not work if the server is crashing
+# this may not work if the server crash
 dwh.servershutdown (Report when server shutting down) bool false
+
+# Create a /dwh command to allow player with 'shout' privilege to send
+# message to discord. Unkike chat relay, the message is not displayed 
+# in game chat
+dwh.dwhcommand (Allow players to send message to discord) bool true
+
+# Relay the public chat to Discord
+dwh.chatrelay (Relay the public chat to Discord) bool false
+
+# Relay the message issued by the /me command to discord
+dwh.merelay (Relay the /me message to Discord) bool false
+
+# Webhook take the name of player for chat relay and /dwh command
+# instead of starting the message with "playername: 
+dwh.impersonate (Webhook take name of player) bool true

@@ -62,12 +62,15 @@ disabled by default)
 - Send a message when the server start (disabled by default)
 - Send a message when the server shutdown (disabled by default, not
  work when server crash or in single player)
+- Chat relay (disabled by default)
+- Chat action (/me command) relay (disabled by default)
+- Direct message to Discord (/dwh command, need the 'shout' privilege)
+- Ability for webhook to take the player name when relaying chat
 
 ### Upcoming Features
 
 - API allowing to communicate with other Minetest mod allowing them to 
 send message
-- Chat relay
 - Support for embedded format
 
 ## Troubleshooting
